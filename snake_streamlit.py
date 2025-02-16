@@ -163,7 +163,7 @@ st_canvas(
     width=CANVAS_SIZE,
     drawing_mode="freedraw",
     key="canvas",
-    initial_drawing=canvas_data
+    initial_drawing={"background": "#f1f8e9", "data": canvas_data}
 )
 
 # 显示游戏结束信息
